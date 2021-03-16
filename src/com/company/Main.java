@@ -16,7 +16,7 @@ public class Main {
         names.add("Basira");
         names.add("Melanie");
 
-        Integer indexOfElement = SearchMethod.JumpSearch(intarr2, 11);
+        Integer indexOfElement = SearchMethod.BinarySearch(intarr2, 11,0,intarr2.length);
 
         if (indexOfElement != null)
             System.out.println("in intarr 11 is at index: " + indexOfElement + " and we retrieved " + intarr2[indexOfElement]);
