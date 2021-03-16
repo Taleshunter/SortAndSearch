@@ -25,6 +25,5 @@ public class Main {
 
         if (indexOfElement != null)
             System.out.println("in names Martin is at index: " + indexOfElement + " and we retrieved " + names.get(indexOfElement));
-
     }
 }
