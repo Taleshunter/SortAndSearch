@@ -1,7 +1,6 @@
 package com.company;
 
 import java.util.List;
-import java.math.*;
 
 public class SearchMethod {
 
@@ -66,7 +65,6 @@ public class SearchMethod {
         else if (list[mid].compareTo(object)>0){
             return BinarySearch(list,object,low,mid-1);
         }
-
         return null;
     }
 

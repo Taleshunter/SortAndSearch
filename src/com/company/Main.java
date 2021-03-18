@@ -1,6 +1,5 @@
 package com.company;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -35,9 +34,5 @@ public class Main {
         System.out.println(names);
         SortingMethods.BubbleSort(names);
         System.out.println(names);
-
-     //   List<String> sortedList = SortingMethods.BubbleSort(names);
-    //    System.out.println(sortedIntArr);
-
     }
 }
