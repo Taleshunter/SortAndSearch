@@ -1,5 +1,6 @@
 package com.company;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -25,5 +26,14 @@ public class Main {
 
         if (indexOfElement != null)
             System.out.println("in names Martin is at index: " + indexOfElement + " and we retrieved " + names.get(indexOfElement));
+
+
+        Printing.PrintArray(intarr);
+        SortingMethods.BubbleSort(intarr);
+        Printing.PrintArray(intarr);
+
+     //   List<String> sortedList = SortingMethods.BubbleSort(names);
+    //    System.out.println(sortedIntArr);
+
     }
 }
