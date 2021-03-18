@@ -32,6 +32,10 @@ public class Main {
         SortingMethods.BubbleSort(intarr);
         Printing.PrintArray(intarr);
 
+        System.out.println(names);
+        SortingMethods.BubbleSort(names);
+        System.out.println(names);
+
      //   List<String> sortedList = SortingMethods.BubbleSort(names);
     //    System.out.println(sortedIntArr);
 
